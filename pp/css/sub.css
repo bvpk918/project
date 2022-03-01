@@ -1,0 +1,167 @@
+
+
+
+#section01{
+    background: #ebf0f0;
+    height: 980px;
+}
+
+#section01 .top_out_box{
+    width: 1600px;
+    height: 743px;
+    margin: 0 auto;
+    padding-top: 119px;
+}
+
+
+
+
+
+#section02{
+    background: dodgerblue;
+}
+
+#section03{
+    background: gray;
+}
+
+#section04{
+    background: hotpink;
+}
+
+
+#section05{
+    background: aqua;
+}
+
+
+
+#footer{
+    background: #0d0d0d;
+    height: 960px;
+}
+#footer .swiper-container{
+    width: 1920px;
+    height: 842px;
+    /*background-color: rgb(114, 76, 5);*/
+    position: relative;
+}
+
+
+#footer .next_page_title{
+    padding-top: 75px;
+    padding-left: 160px;
+}
+
+.swiper-container .swiper-pagination{
+    /*margin: 0 auto;*/
+    font-size: 42px;
+    color: white;
+    opacity: 0.8;
+    position: absolute;
+    right: 160px;
+    top: -53px;
+    display: flex;
+    justify-content: left;
+    align-items: baseline;
+
+
+}
+
+.swiper-container .swiper-pagination .swiper-pagination-current{
+    font-size: 64px;
+    color: white;
+    padding-right: 10px;
+    padding-top: 4px;
+    /*opacity: 0.8;*/
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*align-content: center;*/
+}
+.swiper-container .swiper-pagination .swiper-pagination-total{
+    font-size: 42px;
+    color: white;
+    padding-left: 10px;
+    padding-top: 4px;
+    /*opacity: 0.8;*/
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*align-content: center;*/
+}
+
+
+#footer .swiper-container .swiper-wrapper{
+    width: 1920px;
+    height: 554px;
+    background-color: #fff;
+    padding-top: 170px;
+}
+
+
+#footer .swiper-container .swiper-wrapper .swiper-slide{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /*background-color: red;*/
+
+}
+
+#footer .swiper-container .swiper-wrapper .maman{
+    width: 820px;
+    height: 554px;
+    /*top: -0.5px;*/
+
+
+}
+
+
+#footer .swiper-slide .pic{
+    position: relative;
+    opacity: 0;
+    transition: all 0.5s;
+
+}
+
+#footer .swiper-slide .title{
+    position:absolute;
+    /*left: 410px;*/
+    /*top: 276px;*/
+    left: 50%;
+    top: 50%;
+    margin-top: -38.5px;
+    z-index: 2;
+}
+
+#footer .swiper-slide-active .title:hover + div{
+    opacity: 1;
+}
+
+
+#footer .swiper-slide .title .next_item_title_base{
+    position: relative;
+    margin-left: -50%
+}
+
+#footer .swiper-slide .title .next_item_title_base:hover .img{
+    opacity: 0;
+
+}
+
+#footer .swiper-slide .title .next_item_title_hvr{
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+}
+
+#footer .swiper-slide .next_item_title_base:hover .next_item_title_hvr{
+    opacity: 1;
+}
+
+
+
+
+
+
+
+
